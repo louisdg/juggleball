@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <style>
+        @font-face {
+            font-family: BalooBhaina;
+            src: url(assets/baloobhaina.ttf);
+        }
+
+        body {
+            font-family: "BalooBhaina", sans-serif;
+            padding: 0;
+            margin: 0;
+            background-color: #007f7f;
+            color: #ffffff;
+        }
+
+        canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+        #content {
+            position: relative;
+            z-index: 2;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            user-select: none;
+        }
+    </style>
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/addons/p5.dom.min.js"></script>
+    <script src="libraries/addons/p5.sound.min.js"></script>
+    <script src="sketch.js"></script>
+    <title>JuggleBall</title>
+</head>
+<body>
+<div id="content">Louis De Gaudenzi - 2018</div>
+</body>
+</html>
